@@ -1,0 +1,20 @@
+Project Name-> House Price Index Prediction.
+
+
+Approach-> In order to predict the house price index,  we wanted to determine the importance of a variety of external features that could affect the price such as crime rates, immigration rates, average income, tax deductions, oil price, weather, etc.
+
+Prediction scope-> This project is predicting the house price by province across Canada
+
+Data source-> 	Statistics Canada
+				Government of Canada
+				Listing price(point2homes.com)
+
+Extraction->	Web services, csv's, web crawling.
+
+Transformation->	Struggle-> How to join all datasets.
+					Per web service, analysis was performed to gather only the information needed, as well as format analysis.
+					Output a csv file with joined data and format applied.
+					Csv passed to Algorithm analysis using LSTM
+					New CSV generated with predicted information.
+
+Loading->	Tableau
